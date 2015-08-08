@@ -20,6 +20,7 @@ advert_on_nocheatR = es.ServerVar("advert_on_nocheat")
 check_on_fragR = es.ServerVar("check_on_frag")
 check_repeatR = es.ServerVar("check_repeat")
 check_secondsR = es.ServerVar("check_seconds")
+detocs_forcelR = es.ServerVar("force_language")
 detocs_langR = es.ServerVar("detocs_lang")
 ban_with_gbR = es.ServerVar("ban_with_gb")
 idreason_gbR = es.ServerVar("idreason_gb")
@@ -55,6 +56,7 @@ def check_variable(userid):
 	global on_connect
 	if int(es.ServerVar("sv_cheats")) == 0:
 		if int(userid) in es.getUseridList():
+			es.queryclientvar(userid, "cl_language")
 			es.queryclientvar(userid, "sv_cheats")
 			es.queryclientvar(userid, "mat_wireframe")
 			es.queryclientvar(userid, "r_drawothermodels")
@@ -91,6 +93,7 @@ def check_variable(userid):
 
 
 def check_variable_connect(userid):
+	es.queryclientvar(userid, "cl_language")
 	es.queryclientvar(userid, "sv_cheats")
 	es.queryclientvar(userid, "mat_wireframe")
 	es.queryclientvar(userid, "r_drawothermodels")
@@ -128,6 +131,7 @@ def check_variable_seconds():
 	global on_connect
 	if int(es.ServerVar("sv_cheats")) == 0:
 		for userid in es.getUseridList():
+			es.queryclientvar(userid, "cl_language")
 			es.queryclientvar(userid, "sv_cheats")
 			es.queryclientvar(userid, "mat_wireframe")
 			es.queryclientvar(userid, "r_drawothermodels")
