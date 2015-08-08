@@ -1,17 +1,3 @@
-# Hunter's Bomb Timer Addon
-# coding=utf-8
-#  
-# Install instructions:
-#       1. Install Mattie's EventScripts 2.1 plugin:
-#           http://mattie.info/cs/
-#
-#       2. Copy and upload this script to:
-#           <gamedir>/addons/eventscripts/bomb_timer/
-#
-#       3. Add the following line somewhere in autoexec.cfg:
-#           es_load bomb_timer
-#
-################################################################################
 #import EventScripts
 import es
 #import Libraries
