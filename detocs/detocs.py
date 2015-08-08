@@ -2,7 +2,6 @@
 
 import es, playerlib, os, time, repeat, random, gamethread, langlib, urllib2
 
-########NE PAS EDITER CE FICHIER########
 ########DON'T EDIT THIS FILE########
 
 info = es.AddonInfo()
