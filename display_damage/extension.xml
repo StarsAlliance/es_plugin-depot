@@ -1,0 +1,21 @@
+<extension type="es_plugin" section="sounds">	
+	<name>Display Damage</name>
+	<author>Star's Alliance</author>
+	<creationDate>08.08.2015</creationDate>
+	<authorEmail>info@starsa.ru</authorEmail>
+	<authorUrl>http://stars-alliance.ru</authorUrl>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<platform>Multi</platform>
+	<games>
+		<game alias="csssource">Counter-Strike: Source</game>
+	</games>
+	<contributors>
+		<name level="developer" email="dragonzx@starsa.ru" url="http://stars-alliance.ru">DragonZX</name>
+		<name level="basedon" email="" url="http://addons.eventscripts.com/addons/view/display_damage">Dead Man Walker</name>
+	<contributors>
+	<version>1.0</version>
+	<description>
+		<en>Damage displayer for Counter-Strike:Source</en>
+		<ru>Отображает повреждения в Counter-Strike:Source</ru>
+	</description>
+</extension>
