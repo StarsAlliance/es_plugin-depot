@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<extension> section="anticheat">	
+<extension>	
 	<type alias="es_plugin">Eventscripts plugin</type>
 	<section alias="anticheat">Anticheat</section>
 	<name>DetoCS</name>
@@ -10,7 +10,7 @@
 	<license url="http://www.gnu.org/licenses/gpl-2.0.html">GNU/GPL v2</license>
 	<sourcecode></sourcecode>
 	<depends alias="es" min="2.0">Eventscripts</depends>
-	<platform>Multi</platform>
+	<platform alias="multi">Multi</platform>
 	<games>
 		<game alias="csssource">Counter-Strike: Source</game>
 	</games>
