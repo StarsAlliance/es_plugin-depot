@@ -16,7 +16,7 @@
 	{
 		"sound"
 		{
-			"standard" "quake/standard/prepare.mp3"
+			//"standard" "quake/standard/prepare.mp3"
 			// "robot" "quake/robot/prepare.mp3"
   		}
 	}
@@ -36,7 +36,7 @@
 		{
 			"standard" "quake/standard/humiliation.mp3"
 			//"russian" "quake/russian/humiliation.mp3"
-			"female" "quake/female/humiliation.mp3"
+			//"female" "quake/female/humiliation.mp3"
 			//"robot" "quake/robot/humiliation.mp3"
   		}
  		"mode" "1"
@@ -119,7 +119,7 @@
 		{
 			"standard" "quake/standard/headhunter.wav"
 			//"robot" "quake/robot/headhunter.mp3"
-			"russian" "quake/russian/headhunter.wav"
+			//"russian" "quake/russian/headhunter.wav"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -165,7 +165,7 @@
 	{
 		"sound"
 		{
-			"standard" "quake/standard/megakill.mp3"
+			//"standard" "quake/standard/megakill.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
