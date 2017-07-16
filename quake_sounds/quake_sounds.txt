@@ -3,10 +3,10 @@
 	"styles"
 	{
 		"standard" "Standard" 	// <-- Do not remove this line! This is the standard setting!
-		"german" "German"		// Syntax: "name" "Menuname"
+		"russian" "Russian"		// Syntax: "name" "Menuname"
 		"female" "Female"		// 		^^^^ -> "sound_name" in the events!
-		"dark" "Dark"		//
-		"robot" "Robot"		//
+		// "dark" "Dark"		//
+		// "robot" "Robot"		//
 	}
 	// mode => 0 = off, 1 = all players hear it, 2 = players involved hear it, 3 = attacker hears it, 4 = victim hears it
 	// mode is not working on server or game events, only on player events!
@@ -16,28 +16,28 @@
 	{
 		"sound"
 		{
-			"standard" "quake/prepare.mp3"
-			"robot" "quake/robot/prepare.mp3"
+			"standard" "quake/standard/prepare.mp3"
+			// "robot" "quake/robot/prepare.mp3"
   		}
 	}
 	"event_round_freeze_end"
 	{
 		"sound"
 		{
-			"standard" "quake/play.wav"
+			"standard" "quake/standard/play.wav"
 			"female" "quake/female/prepare.mp3"
-			"dark" "quake/dark/play.wav"
-			"robot" "quake/robot/play.mp3"
+			//"dark" "quake/dark/play.wav"
+			//"robot" "quake/robot/play.mp3"
   		}
 	}
 	"weapon_knife"
 	{
 		"sound"
 		{
-			"standard" "quake/humiliation.mp3"
-			"german" "quake/german/humiliation.mp3"
+			"standard" "quake/standard/humiliation.mp3"
+			//"russian" "quake/russian/humiliation.mp3"
 			"female" "quake/female/humiliation.mp3"
-			"robot" "quake/robot/humiliation.mp3"
+			//"robot" "quake/robot/humiliation.mp3"
   		}
  		"mode" "1"
 		"visual_mode" "1"
@@ -47,8 +47,8 @@
 	{
 		"sound"
 		{
-			"standard" "quake/perfect.mp3"
-			"robot" "quake/robot/perfect.mp3"
+			"standard" "quake/standard/perfect.mp3"
+			//"robot" "quake/robot/perfect.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -58,8 +58,8 @@
 	{
 		"sound"
 		{
-			"standard" "quake/teamkiller.mp3"
-			"robot" "quake/robot/teamkiller.mp3"
+			"standard" "quake/standard/teamkiller.mp3"
+			//"robot" "quake/robot/teamkiller.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -69,10 +69,10 @@
 	{
 		"sound"
 		{
-			"standard" "quake/holyshit.mp3"
-			"german" "quake/german/holyshit.mp3"
+			"standard" "quake/standard/holyshit.mp3"
+			"russian" "quake/russian/holyshit.mp3"
 			"female" "quake/female/holyshit.mp3"
-			"robot" "quake/robot/holyshit.mp3"
+			//"robot" "quake/robot/holyshit.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -81,10 +81,9 @@
 	{
 		"sound"
 		{
-			"standard" "quake/headshot.mp3"
-			"german" "quake/german/headshot.mp3"
+			"standard" "quake/standard/headshot.mp3"
 			"female" "quake/female/headshot.mp3"
-			"robot" "quake/robot/headshot.mp3"
+			//"robot" "quake/robot/headshot.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -94,8 +93,9 @@
 	{
 		"sound"
 		{
-			"standard" "quake/hattrick.wav"
-			"robot" "quake/robot/hattrick.mp3"
+			"standard" "quake/standard/hattrick.wav"
+			//"robot" "quake/robot/hattrick.mp3"
+			"russian" "quake/russian/hattrick.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -105,8 +105,9 @@
 	{
 		"sound"
 		{
-			"standard" "quake/combowhore.mp3"
-			"robot" "quake/robot/combowhore.mp3"
+			"standard" "quake/standard/combowhore.mp3"
+			//"robot" "quake/robot/combowhore.mp3"
+			"russian" "quake/russian/combowhore.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -116,8 +117,9 @@
 	{
 		"sound"
 		{
-			"standard" "quake/headhunter.wav"
-			"robot" "quake/robot/headhunter.mp3"
+			"standard" "quake/standard/headhunter.wav"
+			//"robot" "quake/robot/headhunter.mp3"
+			"russian" "quake/russian/headhunter.wav"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -127,7 +129,8 @@
 	{
 		"sound"
 		{
-			"standard" "quake/doublekill.mp3"
+			"standard" "quake/standard/doublekill.mp3"
+			"russian" "quake/russian/doublekill.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -137,7 +140,8 @@
 	{
 		"sound"
 		{
-			"standard" "quake/triplekill.mp3"
+			"standard" "quake/standard/triplekill.mp3"
+			"russian" "quake/russian/triplekill.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -147,11 +151,11 @@
 	{
 		"sound"
 		{
-			"standard" "quake/multikill.mp3"
-			"german" "quake/german/multikill.mp3"
+			"standard" "quake/standard/multikill.mp3"
+			"russian" "quake/russian/multikill.mp3"
 			"female" "quake/female/multikill.mp3"
-			"dark" "quake/dark/multikill.wav"
-			"robot" "quake/robot/multikill.mp3"
+			//"dark" "quake/dark/multikill.wav"
+			//"robot" "quake/robot/multikill.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -161,7 +165,7 @@
 	{
 		"sound"
 		{
-			"standard" "quake/megakill.mp3"
+			"standard" "quake/standard/megakill.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -171,11 +175,11 @@
 	{
 		"sound"
 		{
-			"standard" "quake/firstblood.mp3"
-			"german" "quake/german/firstblood.mp3"
+			"standard" "quake/standard/firstblood.mp3"
+			"russian" "quake/russian/firstblood.mp3"
 			"female" "quake/female/firstblood.mp3"
-			"dark" "quake/dark/firstblood.wav"
-			"robot" "quake/robot/firstblood.mp3"
+			//"dark" "quake/dark/firstblood.wav"
+			//"robot" "quake/robot/firstblood.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -185,11 +189,11 @@
 	{
 		"sound"
 		{
-			"standard" "quake/dominating.mp3"
-			"german" "quake/german/dominating.mp3"
+			"standard" "quake/standard/dominating.mp3"
+			"russian" "quake/russian/dominating.mp3"
 			"female" "quake/female/dominating.mp3"
-			"dark" "quake/dark/dominating.wav"
-			"robot" "quake/robot/dominating.mp3"
+			//"dark" "quake/dark/dominating.wav"
+			//"robot" "quake/robot/dominating.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -199,11 +203,11 @@
 	{
 		"sound"
 		{
-			"standard" "quake/rampage.mp3"
-			"german" "quake/german/rampage.mp3"
+			"standard" "quake/standard/rampage.mp3"
+			"russian" "quake/russian/rampage.mp3"
 			"female" "quake/female/rampage.mp3"
-			"dark" "quake/dark/rampage.wav"
-			"robot" "quake/robot/rampage.mp3"
+			//"dark" "quake/dark/rampage.wav"
+			//"robot" "quake/robot/rampage.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -213,11 +217,11 @@
 	{
 		"sound"
 		{
-			"standard" "quake/killingspree.mp3"
-			"german" "quake/german/killingspree.mp3"
+			"standard" "quake/standard/killingspree.mp3"
+			"russian" "quake/russian/killingspree.mp3"
 			"female" "quake/female/killingspree.mp3"
-			"dark" "quake/dark/killingspree.wav"
-			"robot" "quake/robot/killingspree.mp3"
+			//"dark" "quake/dark/killingspree.wav"
+			//"robot" "quake/robot/killingspree.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -227,11 +231,11 @@
 	{
 		"sound"
 		{
-			"standard" "quake/monsterkill.mp3"
-			"german" "quake/german/monsterkill.mp3"
+			"standard" "quake/standard/monsterkill.mp3"
+			"russian" "quake/russian/monsterkill.mp3"
 			"female" "quake/female/monsterkill.mp3"
-			"dark" "quake/dark/monsterkill.wav"
-			"robot" "quake/robot/monsterkill.mp3"
+			//"dark" "quake/dark/monsterkill.wav"
+			//"robot" "quake/robot/monsterkill.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -241,11 +245,11 @@
 	{
 		"sound"
 		{
-			"standard" "quake/unstoppable.mp3"
-			"german" "quake/german/unstoppable.mp3"
+			"standard" "quake/standard/unstoppable.mp3"
+			"russian" "quake/russian/unstoppable.mp3"
 			"female" "quake/female/unstoppable.mp3"
-			"dark" "quake/dark/unstoppable.wav"
-			"robot" "quake/robot/unstoppable.mp3"
+			//"dark" "quake/dark/unstoppable.wav"
+			//"robot" "quake/robot/unstoppable.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -255,11 +259,11 @@
 	{
 		"sound"
 		{
-			"standard" "quake/ultrakill.mp3"
-			"german" "quake/ultrakill.mp3"
+			"standard" "quake/standard/ultrakill.mp3"
+			"russian" "quake/russian/ultrakill.mp3"
 			"female" "quake/female/ultrakill.mp3"
-			"dark" "quake/dark/ultrakill.wav"
-			"robot" "quake/robot/ultrakill.mp3"
+			//"dark" "quake/dark/ultrakill.wav"
+			//"robot" "quake/robot/ultrakill.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -269,11 +273,11 @@
 	{
 		"sound"
 		{
-			"standard" "quake/godlike.mp3"
-			"german" "quake/german/godlike.mp3"
+			"standard" "quake/standard/godlike.mp3"
+			"russian" "quake/russian/godlike.mp3"
 			"female" "quake/female/godlike.mp3"
-			"dark" "quake/dark/godlike.wav"
-			"robot" "quake/robot/godlike.mp3"
+			//"dark" "quake/dark/godlike.wav"
+			//"robot" "quake/robot/godlike.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -283,11 +287,11 @@
 	{
 		"sound"
 		{
-			"standard" "quake/wickedsick.mp3"
-			"german" "quake/german/wickedsick.mp3"
+			"standard" "quake/standard/wickedsick.mp3"
+			"russian" "quake/russian/wickedsick.mp3"
 			"female" "quake/female/wickedsick.mp3"
-			"dark" "quake/dark/wickedsick.wav"
-			"robot" "quake/robot/wickedsick.mp3"
+			//"dark" "quake/dark/wickedsick.wav"
+			//"robot" "quake/robot/wickedsick.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -297,8 +301,9 @@
 	{
 		"sound"
 		{
-			"standard" "quake/impressive.mp3"
-			"robot" "quake/robot/impressive.mp3"
+			"standard" "quake/standard/impressive.mp3"
+			"russian" "quake/russian/impressive.mp3"
+			//"robot" "quake/robot/impressive.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -308,10 +313,10 @@
 	{
 		"sound"
 		{
-			"standard" "quake/ludicrouskill.mp3"
-			"german" "quake/german/ludicrouskill.mp3"
-			"dark" "quake/dark/ludicrouskill.wav"
-			"robot" "quake/robot/ludicrouskill.mp3"
+			"standard" "quake/standard/ludicrouskill.mp3"
+			"russian" "quake/russian/ludicrouskill.mp3"
+			//"dark" "quake/dark/ludicrouskill.wav"
+			//"robot" "quake/robot/ludicrouskill.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -321,10 +326,10 @@
 	{
 		"sound"
 		{
-			"standard" "quake/holyshit.mp3"
-			"german" "quake/german/holyshit.mp3"
+			"standard" "quake/standard/holyshit.mp3"
+			"russian" "quake/russian/holyshit.mp3"
 			"female" "quake/female/holyshit.mp3"
-			"robot" "quake/robot/holyshit.mp3"
+			//"robot" "quake/robot/holyshit.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
