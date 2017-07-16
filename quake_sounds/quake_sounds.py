@@ -46,7 +46,7 @@ quake_sounds_soundload      = es.ServerVar('quake_sounds_soundload', '1', 'Shoul
 quake_sounds_multikill_time = es.ServerVar('quake_sounds_multikill_time', '1.5', 'The time between kills that counts up the multikill count? ( >0 )')
 
 # Global Variables
-quake_sounds_language       = langlib.Strings(es.getAddonPath('quake_sounds')+'/quake_sounds.ini')
+quake_sounds_language       = langlib.Strings(es.getAddonPath('quake_sounds')+'/language.ini')
 quake_sounds_kills          = 0
 quake_sounds_players        = {}
 
