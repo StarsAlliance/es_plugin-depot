@@ -84,6 +84,7 @@
 			"standard" "quake/standard/headshot.mp3"
 			"female" "quake/female/headshot.mp3"
 			//"robot" "quake/robot/headshot.mp3"
+			"russian" "quake/russian/headshot.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -119,7 +120,7 @@
 		{
 			"standard" "quake/standard/headhunter.wav"
 			//"robot" "quake/robot/headhunter.mp3"
-			//"russian" "quake/russian/headhunter.wav"
+			"russian" "quake/russian/headhunter.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
@@ -166,6 +167,7 @@
 		"sound"
 		{
 			//"standard" "quake/standard/megakill.mp3"
+			"russian" "quake/standard/megakill.mp3"
   		}
 		"mode" "1"
 		"visual_mode" "1"
