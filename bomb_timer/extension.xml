@@ -1,4 +1,6 @@
-<extension type="es_plugin" section="sounds">	
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE extension PUBLIC "-//Joomla! 3.0//DTD template 1.0//EN" "http://help.aunited.ru/dtd/gamedb/addons.dtd">
+<extension type="es_plugin" section="sounds">
 	<name>BombTimer</name>
 	<author>Star's Alliance</author>
 	<creationDate>08.08.2015</creationDate>
@@ -12,10 +14,10 @@
 	<contributors>
 		<name level="developer" email="dragonzx@starsa.ru" url="http://stars-alliance.ru">DragonZX</name>
 		<name level="basedon" email="" url="http://www.team-tocs.com">Hunter</name>
-	<contributors>
+	</contributors>
 	<version>1.0</version>
 	<description>
-		<en>Bomb timer for Counter-Strike:Source</en>
-		<ru>Таймер бомбы для Counter-Strike:Source</ru>
+		<fulldesc language="en">Bomb timer for Counter-Strike:Source</fulldesc>
+		<fulldesc language="ru">Таймер бомбы для Counter-Strike:Source</fulldesc>
 	</description>
 </extension>

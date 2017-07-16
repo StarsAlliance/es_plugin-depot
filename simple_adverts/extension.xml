@@ -13,11 +13,11 @@
 	</games>
 	<contributors>
 		<name level="developer" email="dragonzx@starsa.ru" url="http://stars-alliance.ru">DragonZX</name>
-		<name level="basedon" email="" url="http://addons.eventscripts.com/addons/view/display_damage">Dead Man Walker</name>
+		<name level="basedon" email="" url="www.NextGenerationGaming.de">Ruuubi</name>
 	</contributors>
 	<version>1.0</version>
 	<description>
-		<fulldesc language="en">Damage displayer for Counter-Strike:Source</fulldesc>
-		<fulldesc language="ru">Отображает повреждения в Counter-Strike:Source</fulldesc>
+		<fulldesc language="en">Displays adverts for your server. Easy to setup.</fulldesc>
+		<fulldesc language="ru">Отображает рекламу на сервере. Легкая в настройке.</fulldesc>
 	</description>
 </extension>

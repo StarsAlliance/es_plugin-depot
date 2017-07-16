@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE extension PUBLIC "-//Joomla! 3.0//DTD template 1.0//EN" "http://help.aunited.ru/dtd/gamedb/addons.dtd">
 <extension type="es_plugin" section="sounds">
-	<name>Display Damage</name>
+	<name>IP to country</name>
 	<author>Star's Alliance</author>
 	<creationDate>08.08.2015</creationDate>
 	<authorEmail>info@starsa.ru</authorEmail>
@@ -13,11 +13,11 @@
 	</games>
 	<contributors>
 		<name level="developer" email="dragonzx@starsa.ru" url="http://stars-alliance.ru">DragonZX</name>
-		<name level="basedon" email="" url="http://addons.eventscripts.com/addons/view/display_damage">Dead Man Walker</name>
+		<name level="basedon" email="" url="http://addons.eventscripts.com/addons/view/iptocountry">SuperDave</name>
 	</contributors>
 	<version>1.0</version>
 	<description>
-		<fulldesc language="en">Damage displayer for Counter-Strike:Source</fulldesc>
-		<fulldesc language="ru">Отображает повреждения в Counter-Strike:Source</fulldesc>
+		<fulldesc language="en">Country detector for Counter-Strike: Source</fulldesc>
+		<fulldesc language="ru">Определяет страну игрока в Counter-Strike: Source</fulldesc>
 	</description>
 </extension>
